@@ -1,12 +1,16 @@
 import unittest
 import requests
-from pyunittest.test_excutes import case_listener
 from ddt import file_data, ddt
 import warnings
+import sys, os
+# from pyunittest.test_excutes import case_listener
+path = os.path.abspath(__file__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(BASE_DIR)
+import case_listener
+
 
 test = case_listener.caseListener()
-
-
 
 @ddt
 class test_case_suite(unittest.TestCase):
