@@ -7,7 +7,7 @@
          ]
       ],
       "api": [
-         "/recover-web/frontapi/v1/recover/overview/list"
+         "/cmdb/api/v3/cis/ci?checkInsert=true"
       ],
       "env": [
          "http://192.168.0.66"

@@ -1,0 +1,90 @@
+{
+        "local": {
+            "rocketmq": [
+                {
+                    "code": "username",
+                    "name": "用户名",
+                    "tooltip": "用户名",
+                    "type": 0,
+                    "required": true
+                },
+                {
+                    "code": "auth",
+                    "name": "密码",
+                    "type": 2,
+                    "tooltip": "账号密码",
+                    "required": true
+                },
+                {
+                    "code": "console_url",
+                    "name": "rocketmq-console地址",
+                    "tooltip": "rocketmq-console地址",
+                    "type": 0,
+                    "required": true
+                }
+            ],
+          "rocketmqtest": [
+                {
+                    "code": "console_url",
+                    "name": "test",
+                    "tooltip": "test",
+                    "type": 0,
+                    "required": true
+                }
+            ],
+            "wmq": [
+                {
+                    "code": "username",
+                    "name": "用户名",
+                    "tooltip": "用户名",
+                    "required": true,
+                    "type": 0
+                },
+                {
+                    "code": "auth",
+                    "name": "密码",
+                    "type": 2,
+                    "tooltip": "账号密码"
+                },
+                {
+                    "code": "remotePort",
+                    "name": "端口",
+                    "tooltip": "远程端口",
+                    "type": 1
+                },
+                {
+                    "code": "sysname",
+                    "name": "操作系统类型",
+                    "tooltip": "操作系统类型",
+                    "type": 4,
+                    "options": [
+                        {
+                            "name": "Linux",
+                            "value": "Linux"
+                        },
+                        {
+                            "name": "Windows",
+                            "value": "Windows"
+                        },
+                        {
+                            "name": "Unix",
+                            "value": "Unix"
+                        }
+                    ]
+                },
+                {
+                    "code": "response",
+                    "name": "响应",
+                    "tooltip": "响应内容",
+                    "type": 3
+                },
+                {
+                    "code": "remember",
+                    "name": "记住密码",
+                    "tooltip": "记住密码",
+                    "type": 5
+                }
+            ]
+        },
+        "remote": {}
+    }

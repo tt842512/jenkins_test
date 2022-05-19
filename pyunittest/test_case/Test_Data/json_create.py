@@ -1,10 +1,9 @@
-
 import json
 
 
 
+#创建测试用例集合模板，生成json文件
 json_all  =[]
-
 
 def process_to_json(json_list):
     list_json = json_list
